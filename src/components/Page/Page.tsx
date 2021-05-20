@@ -3,6 +3,7 @@ import React from 'react'
 import DefaultOverlayContent from '../../DefaultOverlayContent/DefaultOverlayContent'
 import ModelSection from '../Model/ModelSection/ModelSection'
 import ModelsWrapper from '../Model/ModelsWrapper/ModelsWrapper'
+import UniqueOverlay from '../UniqueOverlay/UniqueOverlay'
 import { Container } from './pageStyle'
 
 const Page: React.FC = () => {
@@ -30,6 +31,7 @@ const Page: React.FC = () => {
                         ))}
 
                 </div>
+                <UniqueOverlay/>
             </ModelsWrapper>
         </Container>
     )
